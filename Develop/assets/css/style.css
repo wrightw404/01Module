@@ -62,12 +62,22 @@ body {
     background-position: center;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .content {
     width: 75%;
     display: flex;
     margin-left: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .float-left {
@@ -136,7 +146,8 @@ body {
 }
 
 .benefits {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -161,37 +172,15 @@ body {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer {
