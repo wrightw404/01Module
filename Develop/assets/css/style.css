@@ -16,7 +16,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -62,50 +61,29 @@ body {
     background-position: center;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .content {
     width: 75%;
-    display: flex;
+    display: inline-block;
     margin-left: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.card {
-    display: flex;
-    flex-wrap: wrap;
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-    align-items: stretch; 
-    flex: 0 2 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-    align-items: stretch; 
-    flex: 0 2 200px;
-}
-
-.head {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-    align-items: stretch; 
-    flex: 0 2 200px;
 }
 
 .search-engine-optimization {
@@ -116,7 +94,6 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -136,18 +113,8 @@ main {
     color: #ffffff;
 }
 
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .benefits {
     margin-right: 10px;
-    margin-left: 20px;
     padding: 20px;
     clear: both;
     float: right;
