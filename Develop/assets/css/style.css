@@ -1,8 +1,11 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* universal selector */
 * p {
     font-size: 16px;
 }
@@ -10,6 +13,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* start of the header */
 
 .header {
     padding: 20px;
@@ -52,6 +57,8 @@ body {
     text-decoration: none;
 }
 
+/*start of main image on the homescreen */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +67,8 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/* start of main sections */
 
 .content {
     width: 75%;
@@ -76,6 +85,7 @@ body {
     font-size: 36px;
 }
 
+/* classes of the small images located inside the horizontal sections */ 
 .float-left {
     float: left;
     margin-right: 25px;
@@ -112,7 +122,7 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* start of side bar */
 .benefits {
     margin-right: 10px;
     padding: 20px;
@@ -149,6 +159,8 @@ body {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* start of footer */
 
 .footer {
     padding: 30px;
