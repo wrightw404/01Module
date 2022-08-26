@@ -20,3 +20,5 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 
 when all of the criteria have been met then the module is complete. 
+
+One of the big challenges I had with this challenge involved git. I encountered a few errors when trying to upload the clone version to my repository. It took a lot of research to figure it out and I'm glad to say that I accomplished it on my own. So I definitely learned my way around git and github. Another thing I learned was the importance of using semantic code. It really does make reading and finding things in the code much easier, along with it also helping with search engine optimization. 
